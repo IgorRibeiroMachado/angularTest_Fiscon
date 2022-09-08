@@ -1,0 +1,51 @@
+#app-component {
+  /* display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column; */
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 80%;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+
+      button {
+        margin: 20px 20px;
+      }
+    }
+  }
+
+  .table-actions {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      height: 40px;
+      align-self: center;
+    }
+  }
+
+  table {
+    width: 100%;
+
+    .mat-column-position {
+      width: 33%;
+    }
+
+    .mat-column-name {
+      width: 33%;
+    }
+
+    .mat-column-tel {
+      width: 33%;
+    }
+  }
+
+}
